@@ -7,3 +7,4 @@ txt文件的生成也是同样运行name
 # labelme_to_COCO
 转换为COCO格式
 直接运行labelme2coco.py即可，注意将classname_to_id改为自己的种类，以及路径修改
+注意路径下要把图片也放进去
