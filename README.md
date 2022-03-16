@@ -1,4 +1,10 @@
-# labelme_to_VOC-COCO
-Code for transform between the json of labelme and VOC&amp;COCO
-1、修改完路径直接运行main.py就可以将labelme的json文件转换为xml文件了
-2、txt文件的生成也是同样运行name
+# labelme_to_VOC
+转换为VOC格式
+修改完路径直接运行main.py就可以将labelme的json文件转换为xml文件了
+txt文件的生成也是同样运行name
+
+
+# labelme_to_COCO
+转换为COCO格式
+直接运行labelme2coco.py即可，注意将classname_to_id改为自己的种类，以及路径修改
+注意路径下要把图片也放进去
